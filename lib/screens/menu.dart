@@ -13,7 +13,7 @@ class MyHomePage extends StatelessWidget {
     ItemHomepage("Logout", Icons.logout),
   ];
 
-  MyHomePage({super.key});
+  MyHomePage({super.key, required String title});
 
   @override
   Widget build(BuildContext context) {
